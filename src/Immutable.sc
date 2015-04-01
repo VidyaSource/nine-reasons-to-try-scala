@@ -1,6 +1,6 @@
 val initialVal = 5
 
-initialVal = 4
+//initialVal = 4
 
 lazy val randomNumbers = for (i <- 1 to 100) yield i * 2
 
