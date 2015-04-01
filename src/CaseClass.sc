@@ -16,7 +16,7 @@ spiderman == spiderman2
 
 batman == spiderman
 
-batman.name = "Superman"
+//batman.name = "Superman"
 
 val superman = batman.copy(name = "Superman")
 
