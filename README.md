@@ -3,7 +3,7 @@
 ##Description
 
 These are the files that accompany the [Vidya](http://www.vidyasource.com) video tutorial 
-[Nine Reasons to Try Scala](https://www.youtube.com/watch?v=sqQDL3imBy4) on features of the Scala language and ecosystem
+[Nine Reasons to Try Scala](https://www.youtube.com/watch?v=rbZ6GzR8B7I) on features of the Scala language and ecosystem
 that make it a compelling choice for developers.
 
 
