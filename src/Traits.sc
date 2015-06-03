@@ -8,12 +8,12 @@ trait Student extends SchoolPerson {
 trait Teacher extends SchoolPerson {
   override def salary = 30000
 }
+
 trait Sluggable {
   def slug: String
   protected def slugify(text: String) = text.toLowerCase.replace(" ", "-")
 }
-class TeachingAssistant(val name: String)
-  extends Student with Teacher with Sluggable {
+class TeachingAssistant(val name: String) extends Student with Teacher with Sluggable {
   def title = "Teaching Assistant"
   override def slug = slugify(s"$title $name")
 }
