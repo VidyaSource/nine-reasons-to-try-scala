@@ -24,8 +24,9 @@ val secondResult: Future[Seq[Int]] = Future {
 }
 
 val futureWithMap = firstResult.flatMap(
-  firstNumberList => secondResult.map(secondNumberList => (firstNumberList zip secondNumberList)
-  .map(tuple => Vector(tuple._1, tuple._2)).flatten)
+  firstNumberList => secondResult
+    .map(secondNumberList => (firstNumberList zip secondNumberList)
+    .flatMap(tuple => Vector(tuple._1, tuple._2)))
 )
 
 Await.result(futureWithMap.map(numbers => numbers.take(50)), 10.seconds)
@@ -33,7 +34,7 @@ Await.result(futureWithMap.map(numbers => numbers.take(50)), 10.seconds)
 val futureWithFor = for {
   firstNumberList <- firstResult
   secondNumberList <- secondResult
-} yield (firstNumberList zip secondNumberList).map(tuple => Vector(tuple._1, tuple._2)).flatten
+} yield (firstNumberList zip secondNumberList).flatMap(tuple => Vector(tuple._1, tuple._2))
 
 Await.result(futureWithFor.map(numbers => numbers.take(50)), 10.seconds)
 
