@@ -12,7 +12,7 @@ val superheroes = Vector(
 )
 
 for (i <- 1 to 10) {
-  val randomIndex = scala.util.Random.nextInt(superheroes.length - 1)
+  val randomIndex = scala.util.Random.nextInt(superheroes.length)
   superheroes(randomIndex) match {
     case Superhero(name, company, _) => println(s"The superhero $name belongs to $company")
   }
