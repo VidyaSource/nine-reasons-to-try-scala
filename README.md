@@ -1,19 +1,19 @@
-#Vidya Tutorial: Nine Reasons to Try Scala
+# Vidya Tutorial: Nine Reasons to Try Scala
 
-##Description
+## Description
 
 These are the files that accompany the [Vidya](http://www.vidyasource.com) video tutorial 
 [Nine Reasons to Try Scala](https://www.youtube.com/watch?v=rbZ6GzR8B7I) on features of the Scala language and ecosystem
 that make it a compelling choice for developers.
 
 
-##Intended Audience
+## Intended Audience
 
 This tutorial is for intermediate-level Java developers, and developers in other languages too, who are curious about 
 what the big deal is with the Scala programming language.
 
 
-##Instructions
+## Instructions
 
 Just download the files and view them in your favorite editor. Follow along with the tutorial [video](http://www.youtube.com/watch?v=pq0ArQhhWzU),
 or play with the code yourself to try different ideas.
@@ -25,7 +25,7 @@ Both are free.
 Or if you prefer, you can [install Scala](http://www.scala-lang.org/download/install.html) and copy and paste the code into
 the [shell](http://scala-lang.org/documentation/getting-started.html?_ga=1.151579321.1007941740.1427391086#your_first_lines_of_code).
 
-##Questions?
+## Questions?
 
 If you have questions, please check out the Vidya [website](http://www.vidyasource.com) or [E-mail](mailto:info@vidyasource.com) us.
 
