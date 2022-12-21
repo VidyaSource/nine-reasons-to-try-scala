@@ -34,6 +34,6 @@ Or you can find us pretty much everywhere:
 * [Twitter](https://twitter.com/VidyaSource)
 * [YouTube](https://www.youtube.com/channel/UC24LVc8Bb65SF6LW-SLog9A)
 * [LinkedIn](http://www.linkedin.com/company/3285099?trk=prof-exp-company-name)
-* [Stack Overflow]([https://plus.google.com/+Vidyasource](https://stackoverflow.com/users/1347281/vidya))
+* [Stack Overflow](https://plus.google.com/+Vidyasource](https://stackoverflow.com/users/1347281/vidya)
 
 We would even do Instagram and Pintrest if we thought it would help.
